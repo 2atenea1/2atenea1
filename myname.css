@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/yourname.gif);
+    background-position: center 50%;
+    background-size: cover;
+}
+
+body {
+    background-image: url(./assets/totorofon.gif);
+    background-position: center 25%;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: center;
+  
+  }
+  
+  ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  li a {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(171, 180, 196);
+    color: 0;
+  }
+  
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(7, 61, 107);
+    margin-top: 350px;
+}
+
+h1 {
+    background-color: rgb(7, 61, 107);
+    font-size: 50px;
+}
+
+h2 {
+    background-color: rgb(7, 61, 107);
+    font-size: 25px;
+}
