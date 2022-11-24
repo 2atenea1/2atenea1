@@ -1,0 +1,51 @@
+body {
+    background-image: url(./img/fondo\ proyec.webp);
+    background-position: center 10%;
+    background-size:cover;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/proyec.gif);
+    background-position: center 50%;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: center;
+
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li a {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    color: rgb(95, 80, 80);
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(126, 113, 113);
+    color: 0;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}

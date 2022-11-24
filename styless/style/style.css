@@ -1,0 +1,77 @@
+body {
+    background-image: url(./img/planetas-de-ciencia-ficcion_2560x1440_xtrafondos.com.jpg);
+    background-position: center 50%;
+    background-size:cover;
+}
+
+section {
+    background-color: rgba(4, 4, 4, 0.727);
+    margin: 150px auto;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    opacity: .8;
+
+}
+
+label {
+    display: flex;
+    font-family: cursive;
+    font-size: 30px;
+   justify-content: center;
+   color: white;
+  
+}
+.nombre{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.numero{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.usuary {
+    display: block;
+    background: transparent;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    outline-color: transparent;
+    padding: 8px 12px;
+    border-color: rgb(254, 254, 254);
+    color: white;
+    
+}
+
+.contra {
+    display: block;
+    background: transparent;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    outline-color: transparent;
+    padding: 8px 12px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+button {
+    display: block;
+    background: transparent;
+    position: relative;
+    top: 50px;
+    left: 35%;
+    border-radius: 10px;
+    width: 162px;
+    height: 38px;
+    color: white;
+    border-color: white;
+    padding: 10px;
+}
