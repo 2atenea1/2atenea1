@@ -1,0 +1,30 @@
+.contenido{
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.acdc{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+button{
+    display: block;
+    background: transparent;
+    position: relative;
+    top: 50px;
+    left: 35%;
+    border-radius: 10px;
+    width: 162px;
+    height: 38px;
+    color: transparent;
+    border-color: white;
+    padding: 10px;
+}
+a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-family:'Fuzzy Bubbles', cursive;
+font-size: 15px;
+}
