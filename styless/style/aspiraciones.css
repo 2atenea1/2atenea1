@@ -1,7 +1,6 @@
-body {
-    background-image: url(../img/fondo\ aspira.jpg);
-    background-position: center 15%;
-    background-size:cover;
+body{
+  background-image: url(../img/fonasp.jpeg);
+  background-position: center 15%;
 }
 header {
 
@@ -42,8 +41,6 @@ nav {
       background-color: rgb(0, 0, 0);
       color: rgb(255, 255, 255);
     }
-
-
 h1 {
     display: flex;
     justify-content: center;
@@ -52,3 +49,57 @@ h1 {
     margin-top: 15px;
     margin-bottom: 100px;
 }
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  background-color: black;
+
+}
+
+.uni{
+  display: flex;
+width: 400px;
+height: 350px;
+margin-left: 25px;
+margin-right: 30px;
+}
+.estudian{
+  display: flex;
+  width: 450px;
+  height: 350px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.gra{
+  display: flex;
+  width: 400px;
+  height: 350px;
+  margin-right: 20px;
+}
+.trab{
+  display: flex;
+  width: 400px;
+  height: 350px;
+  margin-left: 25px;
+  margin-right: 30px;
+}
+.exp{
+  display: flex;
+  width: 400px;
+  height: 350px;
+  margin-left: 25px;
+  margin-right: 30px;
+}
+p{
+  display: flex;
+  font-family: fantasy;
+  color: rgb(255, 255, 255);
+   font-size: 35px;
+   margin-top: 25px;
+   justify-content: center;
+   padding-left: 50px;
+   padding-right: 100px;
+ }
