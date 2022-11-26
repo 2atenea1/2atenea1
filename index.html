@@ -8,29 +8,20 @@
     <title>inicia sesión</title>
     <link rel="icon" href="./styless/img/iconcandado.jpg">
     <link rel="stylesheet" href="./styless/style/style.css">
+    <script src="index.js"></script>
+
 </head>
 
 <body>
-    <section>
+    <div class="formulario__inicio">
+        <form action="" class="formulario__sesion" >
+            <b>INICIO DE SESION</b>
+            <input class="usuary" type="text" placeholder="usuario" id="login">
+            <input class="contra" type="password" placeholder="contraseña" name="password">
+            <button onclick="iniciarSesison();" type="button">Iniciar sesión</button>
+        </form>
 
-        <div >
-            <label class="nombre" for="usuario">
-                Ingrese usuario
-            </label>
-            <input class="usuary" autofocus="autofocus" type="text" id="ingresousu">
-        </div>
-        <div >
-            <label class="numero" for="password">
-                contraseña
-            </label>
-            <input class="contra" type="password" autofocus="autofocus" id="contrase">
-        </div>
-        <div>
-            <button  class="Button" type="submit">
-                Iniciar sesión
-            </button>
-        </div>
-    </section>
+    </div >
 </body>
 
 </html>

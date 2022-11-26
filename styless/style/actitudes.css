@@ -1,3 +1,13 @@
+*{
+  margin:0;
+ padding: 0;
+ outline: 0;
+ box-sizing: border-box; 
+}
+html{
+  font-family: Arial,sans-serif;
+}
+
 body {
     background-image: url(../img/fondo\ actitu.jpg);
     background-position: center 15%;
@@ -49,3 +59,4 @@ h1 {
     margin-top: 15px;
     margin-bottom: 100px;
 }
+
