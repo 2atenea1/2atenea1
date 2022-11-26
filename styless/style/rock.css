@@ -1,15 +1,93 @@
-.contenido{
-    margin-right: 5%;
+.contenido {
+    margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.acdc{
+
+.imagenes {
+    width: 30%;
+}
+
+.acdc {
     margin-bottom: 10px;
     width: 200px;
     height: 100px;
 }
-button{
+
+.roses {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.iron {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.gorillaz {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.heroes {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.imagine {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.mago {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.kiss {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.kraken {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.rata {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.halloween {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.manes {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+.nirva {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+button {
     display: block;
     background: transparent;
     position: relative;
@@ -22,9 +100,10 @@ button{
     border-color: white;
     padding: 10px;
 }
-a{
-color: rgb(0, 0, 0);
-text-decoration: none;
-font-family:'Fuzzy Bubbles', cursive;
-font-size: 15px;
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 15px;
 }
